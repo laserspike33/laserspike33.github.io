@@ -1,0 +1,99 @@
+*{
+   box-sizing: border-box; 
+}
+body {
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(97, 44, 6);
+  }
+  p{
+    color:aqua; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c78c0d;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  h1{
+    text-align: center;
+    font-size: 70px;
+    color: coral;
+  }
+  
+  
+  li a {
+    display: list-item;
+    color: rgb(255, 251, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #b32424;
+  }
+  
+  .active {
+    background-color: #2848b1;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 6, 6);
+    color:goldenrod;
+    text-align: center;
+    text-anchor: top;
+  }
+  img{
+   width: 100%;
+  }
+  .row::after{
+    content:"";
+    clear: both;
+  }
+  /*if on phone( i.e < 800 px)*/
+  .column{
+    width: 100%;
+    padding: 5px;
+  }
+  /*else*/
+  @media screen and (min-width: 800px) {
+    .column {
+      float: left;
+      width: 25%;
+      padding: 5px;
+    }
+  }
+
+  input[type=tel], input[type=text], input[type=email] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #4d2007;
+    color: rgb(229, 255, 0);
+  }
+  h2{
+    color:blueviolet
+  }
+  textarea {
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #632609;
+    border-radius: 4px;
+    background-color: #6b0000;
+    font-size: 16px;
+    resize: none;
+  }
