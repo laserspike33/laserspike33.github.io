@@ -15,9 +15,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #c78c0d;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    background-color: #ff0000;
+    position: -webbit-sticky /* Safari */ sticky;
     top: 0;
   }
   h1{
@@ -29,28 +28,27 @@ body {
   
   li a {
     display: list-item;
-    color: rgb(255, 251, 0);
+    color: rgb(0, 38, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #b32424;
+    background-color: #000000;
   }
   
   .active {
-    background-color: #2848b1;
+    background-color: #2bff00;
   }
   .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(255, 6, 6);
-    color:goldenrod;
+    background-color: rgb(255, 6, 193);
+    color:rgb(43, 41, 41);
     text-align: center;
-    text-anchor: top;
   }
   img{
    width: 100%;
